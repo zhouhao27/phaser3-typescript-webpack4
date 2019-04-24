@@ -78,6 +78,19 @@ devtool: 'source-map',
 
 > But after launch the debugger need to click "Restart" make the breakpoint works.
 
+## How to use
+
+```
+> git clone https://github.com/zhouhao27/phaser3-typescript-webpack4 <YourProjectName>
+
+> cd <YourProjectName>
+
+> yarn
+
+> yarn dev
+```
+
+
 
 ## References
 
