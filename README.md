@@ -45,6 +45,40 @@ yarn add phaser
   },
 ```
 
+7. Add launch.json in .vscode to enable debugging
+
+```
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Phaser (TypeScript) Debug",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "skipFiles": [
+        "node_modules/**"
+      ],
+      "sourceMapPathOverrides": {
+        "webpack:///./*": "${webRoot}/*"
+      }
+    }
+  ]
+}
+```
+
+The key is to add this in webpack.config.js:
+```
+devtool: 'source-map',
+```
+
+> But after launch the debugger need to click "Restart" make the breakpoint works.
+
+
 ## References
 
 https://github.com/digitsensitive/phaser3-typescript
