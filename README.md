@@ -90,8 +90,6 @@ devtool: 'source-map',
 > yarn dev
 ```
 
-
-
 ## References
 
 https://github.com/digitsensitive/phaser3-typescript
