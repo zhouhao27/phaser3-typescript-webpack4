@@ -1,5 +1,5 @@
 import "phaser";
-import { MainScene } from "./scenes/main";
+import { BootScene, MainScene } from "./scenes";
 
 const config: GameConfig = {
   type: Phaser.AUTO,  
@@ -9,7 +9,7 @@ const config: GameConfig = {
     width: 800,
     height: 600,  
   },
-  scene: [MainScene],
+  scene: [BootScene,MainScene],
   physics: {
     default: "arcade",
     arcade: {

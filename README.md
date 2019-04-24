@@ -92,7 +92,9 @@ devtool: 'source-map',
 
 ## References
 
-https://github.com/digitsensitive/phaser3-typescript
+[Phaser 3 and TypeScript](https://github.com/digitsensitive/phaser3-typescript)
+
+[Using ESLint and Prettier in a TypeScript Project](https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb)
 
 ## Tools
 
