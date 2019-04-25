@@ -90,6 +90,10 @@ devtool: 'source-map',
 > yarn dev
 ```
 
+## TODO:
+
+Add a phaser-cli tool.
+
 ## References
 
 [Phaser 3 and TypeScript](https://github.com/digitsensitive/phaser3-typescript)
